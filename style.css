@@ -879,6 +879,70 @@ nav a:hover::before {
   border: 1px solid rgba(255,255,255,0.2);
 }
 
+/* CTA below releases */
+.gallery-cta-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(52, 152, 219, 0.35);
+  transition: all 0.25s ease;
+}
+
+.gallery-cta-button:hover {
+  background: linear-gradient(135deg, #2980b9, #1f5f8b);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(52, 152, 219, 0.45);
+}
+
+.gallery-cta-button:focus {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+
+/* CTA below releases */
+.gallery-cta-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(52, 152, 219, 0.35);
+  transition: all 0.25s ease;
+}
+
+.gallery-cta-button:hover {
+  background: linear-gradient(135deg, #2980b9, #1f5f8b);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(52, 152, 219, 0.45);
+}
+
+.gallery-cta-button:focus {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+
 .magazine-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
